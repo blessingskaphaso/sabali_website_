@@ -18,7 +18,7 @@
             </div>
             <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
                 <h3 class="text-xl font-semibold mb-2">🤝 Trust</h3>
-                <p>Registered under Malawian law and compliant with MRA standards — you can count on us for transparency.</p>
+                <p>Registered under Malawian law and compliant with MRA standards you can count on us for transparency.</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
                 <h3 class="text-xl font-semibold mb-2">🌍 Community Impact</h3>
