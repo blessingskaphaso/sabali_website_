@@ -126,7 +126,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="gradient-blue text-white mt-12" role="contentinfo">
+    <footer class="gradient-red text-white mt-12" role="contentinfo">
         <div class="max-w-7xl mx-auto px-4 py-12">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 

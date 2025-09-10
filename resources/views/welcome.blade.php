@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Hero Section -->
-    <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+    <div class="bg-gradient-to-r from-red-500 to-blue-700 text-white">
         <div class="max-w-6xl mx-auto px-4 py-20">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl font-bold mb-6">Welcome to Sabali Solutions</h1>
@@ -134,7 +134,7 @@
     </div>
 
     <!-- Call to Action -->
-    <div class="py-12 bg-blue-600">
+    <div class="py-12 bg-black-600">
         <div class="max-w-4xl mx-auto text-center px-4">
             <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
                 Ready to Get Started?
