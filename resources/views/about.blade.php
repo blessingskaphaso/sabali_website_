@@ -149,5 +149,28 @@
             </div>
         </div>
     </div>
+
+    <!-- Co-Founders Section -->
+    <div class="mt-16">
+        <h2 class="text-3xl font-bold text-center text-blue-700 mb-8">Our Team</h2>
+        
+        <div class="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto text-center">
+            <!-- Founder 1 -->
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+                <img src="{{ asset('images/founder1.jpg') }}" alt="Co-Founder 1" class="mx-auto w-32 h-32 rounded-full shadow-md mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">Peter Blessings Kaphaso</h3>
+                <p class="text-sm text-gray-500 mb-3">Co-Founder</p>
+                <blockquote class="italic text-gray-600">“You do not understand now what I am doing, but later you will understand.”</blockquote>
+            </div>
+
+            <!-- Founder 2 -->
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+                <img src="{{ asset('images/founder2.jpg') }}" alt="Co-Founder 2" class="mx-auto w-32 h-32 rounded-full shadow-md mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">Yankho Maseko</h3>
+                <p class="text-sm text-gray-500 mb-3">Co-Founder</p>
+                <blockquote class="italic text-gray-600">“Opportunities do not happen, you create them.”</blockquote>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
