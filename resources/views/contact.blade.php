@@ -25,7 +25,7 @@
                         </div>
                         <div>
                             <h3 class="font-semibold mb-1">Email</h3>
-                            <p class="text-blue-100">blesskapha@outlook.com</p>
+                            <p class="text-blue-100">sabalisolutions@hotmail.com</p>
                         </div>
                     </div>
 
