@@ -32,8 +32,16 @@ RUN composer install --no-dev --optimize-autoloader
 # Copy .env.example to .env if .env doesn't exist
 RUN if [ ! -f .env ]; then cp .env.example .env; fi
 
+# Create SQLite database file and directory
+RUN mkdir -p /var/www/html/database && \
+    touch /var/www/html/database/database.sqlite && \
+    chown -R www-data:www-data /var/www/html/database
+
 # Generate Laravel key
 RUN php artisan key:generate
+
+# Run database migrations
+RUN php artisan migrate --force || true
 
 # Clear and optimize Laravel caches
 RUN php artisan config:clear && \
