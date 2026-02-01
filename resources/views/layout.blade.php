@@ -35,6 +35,39 @@
             --border-color: #E5E7EB;
         }
         
+        /* Light mode specific fixes for visibility */
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+        }
+        
+        /* Ensure all gray text classes have good contrast in light mode */
+        /* Light colors become dark for readability on light backgrounds */
+        .text-gray-100 { color: #4B5563 !important; }
+        .text-gray-200 { color: #4B5563 !important; }
+        .text-gray-300 { color: #4B5563 !important; }
+        .text-gray-400 { color: #6B7280 !important; }
+        .text-gray-500 { color: #6B7280 !important; }
+        .text-gray-600 { color: #4B5563 !important; }
+        .text-gray-700 { color: #374151 !important; }
+        .text-gray-800 { color: #1F2937 !important; }
+        .text-gray-900 { color: #111827 !important; }
+        
+        /* Slate colors for better visibility */
+        .text-slate-100 { color: #475569 !important; }
+        .text-slate-200 { color: #475569 !important; }
+        .text-slate-300 { color: #475569 !important; }
+        .text-slate-400 { color: #64748B !important; }
+        .text-slate-500 { color: #64748B !important; }
+        .text-slate-600 { color: #475569 !important; }
+        .text-slate-700 { color: #334155 !important; }
+        .text-slate-800 { color: #1E293B !important; }
+        .text-slate-900 { color: #0F172A !important; }
+        
+        /* Blue colors for light mode */
+        .text-blue-100 { color: #1E40AF !important; }
+        .text-blue-200 { color: #1D4ED8 !important; }
+        
         @media (prefers-color-scheme: dark) {
             :root {
                 --bg-primary: #111827;
@@ -78,6 +111,22 @@
             .shadow {
                 box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3) !important;
             }
+            
+            /* Restore light colors in dark mode */
+            .text-gray-100 { color: #F3F4F6 !important; }
+            .text-gray-200 { color: #E5E7EB !important; }
+            .text-gray-300 { color: #D1D5DB !important; }
+            .text-gray-400 { color: #9CA3AF !important; }
+            .text-gray-500 { color: #6B7280 !important; }
+            
+            .text-slate-100 { color: #F1F5F9 !important; }
+            .text-slate-200 { color: #E2E8F0 !important; }
+            .text-slate-300 { color: #CBD5E1 !important; }
+            .text-slate-400 { color: #94A3B8 !important; }
+            .text-slate-500 { color: #64748B !important; }
+            
+            .text-blue-100 { color: #DBEAFE !important; }
+            .text-blue-200 { color: #BFDBFE !important; }
         }
         
         /* Smooth scrolling */
