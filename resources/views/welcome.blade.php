@@ -60,20 +60,102 @@
                             <span class="h-3 w-3 rounded-full bg-amber-400/70"></span>
                             <span class="h-3 w-3 rounded-full bg-emerald-400/70"></span>
                         </div>
-                        <div class="mx-auto text-xs font-mono text-slate-500">
-                            sabali-core-v2.0
+                        <div class="mx-auto text-xs font-mono text-slate-400">
+                            sabali-solutions
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 lg:p-10">
-                        <div class="h-28 sm:h-32 rounded-xl bg-slate-800/60"></div>
-                        <div class="h-28 sm:h-32 rounded-xl bg-slate-800/60"></div>
-                        <div class="h-28 sm:h-32 rounded-xl bg-slate-800/60"></div>
+                        <!-- IT Solutions Card -->
+                        <div class="group h-28 sm:h-32 rounded-xl bg-gradient-to-br from-blue-500/10 to-indigo-500/10 border border-blue-500/20 p-4 hover:border-blue-400/40 transition-all duration-300 hover:scale-105">
+                            <div class="flex flex-col h-full justify-between">
+                                <div class="flex items-center justify-between">
+                                    <i class="fas fa-laptop-code text-xl sm:text-2xl text-blue-400"></i>
+                                    <span class="text-[0.65rem] sm:text-xs font-mono text-emerald-400">Active</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold text-xs sm:text-sm mb-0.5">IT Solutions</h4>
+                                    <p class="text-slate-400 text-[0.65rem] sm:text-xs">Hardware & Software</p>
+                                </div>
+                            </div>
+                        </div>
 
-                        <div class="md:col-span-3 flex h-40 sm:h-48 items-center justify-center rounded-xl bg-slate-800/40">
-                            <span class="font-mono text-[0.7rem] sm:text-xs uppercase tracking-[0.3em] text-slate-500">
-                                System Visualization Active
-                            </span>
+                        <!-- Financial Services Card -->
+                        <div class="group h-28 sm:h-32 rounded-xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/20 p-4 hover:border-emerald-400/40 transition-all duration-300 hover:scale-105">
+                            <div class="flex flex-col h-full justify-between">
+                                <div class="flex items-center justify-between">
+                                    <i class="fas fa-hand-holding-usd text-xl sm:text-2xl text-emerald-400"></i>
+                                    <span class="text-[0.65rem] sm:text-xs font-mono text-emerald-400">Active</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold text-xs sm:text-sm mb-0.5">Financial Services</h4>
+                                    <p class="text-slate-400 text-[0.65rem] sm:text-xs">Microloans & Support</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Health & Wellness Card -->
+                        <div class="group h-28 sm:h-32 rounded-xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/20 p-4 hover:border-purple-400/40 transition-all duration-300 hover:scale-105">
+                            <div class="flex flex-col h-full justify-between">
+                                <div class="flex items-center justify-between">
+                                    <i class="fas fa-heartbeat text-xl sm:text-2xl text-purple-400"></i>
+                                    <span class="text-[0.65rem] sm:text-xs font-mono text-emerald-400">Active</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold text-xs sm:text-sm mb-0.5">Health & Wellness</h4>
+                                    <p class="text-slate-400 text-[0.65rem] sm:text-xs">Premium Products</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="md:col-span-3 rounded-xl bg-gradient-to-br from-slate-800/60 to-slate-900/60 border border-white/5 overflow-hidden">
+                            <div class="p-4 sm:p-6 lg:p-8">
+                                <div class="flex flex-col sm:flex-row items-center justify-between mb-4 sm:mb-6 gap-3">
+                                    <div class="text-center sm:text-left">
+                                        <h3 class="text-white font-semibold text-base sm:text-lg mb-1">Platform Overview</h3>
+                                        <p class="text-slate-400 text-xs sm:text-sm">Real-time business metrics</p>
+                                    </div>
+                                    <span class="px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-mono">
+                                        <i class="fas fa-circle text-[6px] mr-1"></i>
+                                        Live
+                                    </span>
+                                </div>
+
+                                <!-- Stats Grid -->
+                                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+                                    <div class="bg-slate-800/40 rounded-lg p-3 sm:p-4 border border-white/5">
+                                        <div class="text-slate-400 text-[0.65rem] sm:text-xs mb-1">Active Clients</div>
+                                        <div class="text-white text-xl sm:text-2xl font-bold">25+</div>
+                                        <div class="text-emerald-400 text-[0.65rem] sm:text-xs mt-1">
+                                            <i class="fas fa-arrow-up text-[6px]"></i> 12% growth
+                                        </div>
+                                    </div>
+
+                                    <div class="bg-slate-800/40 rounded-lg p-3 sm:p-4 border border-white/5">
+                                        <div class="text-slate-400 text-[0.65rem] sm:text-xs mb-1">Services</div>
+                                        <div class="text-white text-xl sm:text-2xl font-bold">5+</div>
+                                        <div class="text-blue-400 text-[0.65rem] sm:text-xs mt-1">
+                                            <i class="fas fa-check text-[6px]"></i> Available
+                                        </div>
+                                    </div>
+
+                                    <div class="bg-slate-800/40 rounded-lg p-3 sm:p-4 border border-white/5">
+                                        <div class="text-slate-400 text-[0.65rem] sm:text-xs mb-1">Location</div>
+                                        <div class="text-white text-lg sm:text-2xl font-bold">Zomba</div>
+                                        <div class="text-purple-400 text-[0.65rem] sm:text-xs mt-1">
+                                            <i class="fas fa-map-marker-alt text-[6px]"></i> Malawi
+                                        </div>
+                                    </div>
+
+                                    <div class="bg-slate-800/40 rounded-lg p-3 sm:p-4 border border-white/5">
+                                        <div class="text-slate-400 text-[0.65rem] sm:text-xs mb-1">Support</div>
+                                        <div class="text-white text-xl sm:text-2xl font-bold">24/7</div>
+                                        <div class="text-emerald-400 text-[0.65rem] sm:text-xs mt-1">
+                                            <i class="fas fa-clock text-[6px]"></i> Available
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

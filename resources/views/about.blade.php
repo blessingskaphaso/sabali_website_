@@ -99,7 +99,7 @@
             <div class="relative group">
                 <div class="absolute -inset-1 bg-gradient-to-r from-indigo-600 to-blue-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition-opacity"></div>
                 <div class="relative bg-slate-900 p-8 rounded-3xl border border-slate-800 text-center">
-                    <img src="{{ asset('images/founder2.jpg') }}" alt="Yankho Maseko" class="mx-auto w-32 h-32 rounded-2xl object-cover shadow-2xl mb-6 border-2 border-slate-800 group-hover:border-indigo-500/50 transition-colors">
+                    <img src="{{ asset('images/founder2.jpeg') }}" alt="Yankho Maseko" class="mx-auto w-32 h-32 rounded-2xl object-cover shadow-2xl mb-6 border-2 border-slate-800 group-hover:border-indigo-500/50 transition-colors">
                     <h3 class="text-xl font-bold text-white mb-1">Yankho Maseko</h3>
                     <p class="text-blue-500 text-sm font-semibold mb-4">Co-Founder</p>
                     <blockquote class="italic text-slate-500 text-sm leading-relaxed">
