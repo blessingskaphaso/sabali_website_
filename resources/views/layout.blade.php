@@ -31,6 +31,8 @@
             --bg-secondary: #FFFFFF;
             --text-primary: #111827;
             --text-secondary: #6B7280;
+            --card-bg: #FFFFFF;
+            --border-color: #E5E7EB;
         }
         
         @media (prefers-color-scheme: dark) {
@@ -39,6 +41,8 @@
                 --bg-secondary: #1F2937;
                 --text-primary: #F9FAFB;
                 --text-secondary: #9CA3AF;
+                --card-bg: #1F2937;
+                --border-color: #374151;
             }
             
             body {
@@ -50,8 +54,29 @@
                 background-color: var(--bg-primary) !important;
             }
             
+            .bg-white {
+                background-color: var(--card-bg) !important;
+            }
+            
             .text-gray-900 {
                 color: var(--text-primary) !important;
+            }
+            
+            .text-gray-600,
+            .text-gray-700,
+            .text-gray-800 {
+                color: var(--text-secondary) !important;
+            }
+            
+            .border-gray-200,
+            .border-gray-300 {
+                border-color: var(--border-color) !important;
+            }
+            
+            .shadow-lg,
+            .shadow-md,
+            .shadow {
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3) !important;
             }
         }
         
