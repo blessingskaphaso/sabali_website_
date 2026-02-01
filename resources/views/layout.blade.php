@@ -174,7 +174,7 @@
                         <img src="{{ asset('images/logo.png') }}" alt="Sabali Solutions Logo" class="h-12 w-12 rounded-full shadow-lg border-2 border-white/20">
                         <div class="flex flex-col">
                             <h1 class="text-xl md:text-2xl font-bold">Sabali Solutions</h1>
-                            <span class="text-xs md:text-sm italic text-blue-100">Every Transaction Matters</span>
+                            <span class="text-xs md:text-sm italic text-black">Every Transaction Matters</span>
                         </div>
                     </a>
                 </div>
@@ -240,10 +240,10 @@
                         <img src="{{ asset('images/logo.png') }}" alt="Sabali Solutions Logo" class="h-10 w-10 md:h-12 md:w-12 rounded-full shadow-lg border-2 border-white/20">
                         <div>
                             <h3 class="text-lg md:text-xl font-bold">Sabali Solutions</h3>
-                            <p class="text-blue-100 text-xs md:text-sm italic">Every Transaction Matters</p>
+                            <p class="text-black-100 text-xs md:text-sm italic">Every Transaction Matters</p>
                         </div>
                     </div>
-                    <p class="text-blue-100 text-sm leading-relaxed px-4 md:px-0">
+                    <p class="text-black-100 text-sm leading-relaxed px-4 md:px-0">
                         Leading provider of IT solutions, financial services, and wellness products in Malawi.
                     </p>
                 </div>
@@ -251,11 +251,11 @@
                 <!-- Quick Links -->
                 <div class="text-center">
                     <h4 class="text-base md:text-lg font-semibold mb-4">Quick Links</h4>
-                    <ul class="space-y-2 text-blue-100 text-sm">
-                        <li><a href="/" class="hover:text-white transition-colors focus-ring rounded px-1">Home</a></li>
-                        <li><a href="/about" class="hover:text-white transition-colors focus-ring rounded px-1">About Us</a></li>
-                        <li><a href="/services" class="hover:text-white transition-colors focus-ring rounded px-1">Our Services</a></li>
-                        <li><a href="/contact" class="hover:text-white transition-colors focus-ring rounded px-1">Contact</a></li>
+                    <ul class="space-y-2 text-black-100 text-sm">
+                        <li><a href="/" class="hover:text-black transition-colors focus-ring rounded px-1">Home</a></li>
+                        <li><a href="/about" class="hover:text-black transition-colors focus-ring rounded px-1">About Us</a></li>
+                        <li><a href="/services" class="hover:text-black transition-colors focus-ring rounded px-1">Our Services</a></li>
+                        <li><a href="/contact" class="hover:text-black transition-colors focus-ring rounded px-1">Contact</a></li>
                     </ul>
                 </div>
 
@@ -265,15 +265,15 @@
                     <div class="space-y-2 text-blue-100 text-sm mb-4">
                         <p class="flex items-center justify-center md:justify-end space-x-2">
                             <i class="fas fa-envelope w-4 flex-shrink-0"></i>
-                            <a href="mailto:blesskapha@outlook.com" class="hover:text-white transition-colors focus-ring rounded px-1 break-all">blesskapha@outlook.com</a>
+                            <a href="mailto:blesskapha@outlook.com" class="hover:text-black transition-colors focus-ring rounded px-1 break-all">blesskapha@outlook.com</a>
                         </p>
                         <p class="flex items-center justify-center md:justify-end space-x-2">
                             <i class="fas fa-phone w-4 flex-shrink-0"></i>
-                            <a href="tel:0995485733" class="hover:text-white transition-colors focus-ring rounded px-1">0995485733</a>
+                            <a href="tel:0995485733" class="hover:text-black transition-colors focus-ring rounded px-1">0995485733</a>
                         </p>
                         <p class="flex items-center justify-center md:justify-end space-x-2">
                             <i class="fas fa-map-marker-alt w-4 flex-shrink-0"></i>
-                            <span>Zomba, Malawi</span>
+                            <span class="hover:text-black">Zomba, Malawi</span>
                         </p>
                     </div>
 
@@ -297,11 +297,11 @@
 
             <!-- Copyright -->
             <div class="border-t border-blue-600 pt-6">
-                <div class="flex flex-col md:flex-row justify-between items-center text-blue-100 text-xs md:text-sm space-y-2 md:space-y-0">
+                <div class="flex flex-col md:flex-row justify-between items-center text-black-100 text-xs md:text-sm space-y-2 md:space-y-0">
                     <p class="text-center md:text-left">&copy; {{ date('Y') }} Sabali Solutions. All Rights Reserved.</p>
                     <div class="flex flex-wrap justify-center space-x-4">
-                        <a href="#" class="hover:text-white transition-colors focus-ring rounded px-1">Privacy Policy</a>
-                        <a href="#" class="hover:text-white transition-colors focus-ring rounded px-1">Terms of Service</a>
+                        <a href="#" class="hover:text-black transition-colors focus-ring rounded px-1">Privacy Policy</a>
+                        <a href="#" class="hover:text-black transition-colors focus-ring rounded px-1">Terms of Service</a>
                     </div>
                 </div>
             </div>

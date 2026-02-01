@@ -19,7 +19,7 @@
                 Innovating Future Partnerships
             </span>
 
-            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight text-white mb-8 leading-tight">
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight text-blue-400 mb-6 leading-snug">
                 Elevate Your Enterprise with <br>
                 <span class="bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400 bg-clip-text text-transparent">
                     Sabali Solutions
@@ -167,7 +167,7 @@
     <section class="py-20 lg:py-24 bg-slate-900/40 border-t border-slate-800/60">
         <div class="container mx-auto px-6">
             <div class="text-center mb-14 lg:mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold tracking-tight text-white mb-4">
+                <h2 class="text-3xl lg:text-4xl font-bold tracking-tight text-deep-blue-400 mb-3">
                     Why Partners Choose Us
                 </h2>
                 <div class="mx-auto mb-6 h-1.5 w-20 rounded-full bg-gradient-to-r from-blue-500 via-sky-400 to-indigo-500"></div>
@@ -186,7 +186,7 @@
                                   d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
                     </div>
-                    <h3 class="mb-3 text-xl font-semibold text-white transition-colors group-hover:text-blue-400">
+                    <h3 class="mb-3 text-xl font-semibold text-deep-blue-400 transition-colors group-hover:text-blue-400">
                         Innovation
                     </h3>
                     <p class="text-sm sm:text-base leading-relaxed text-slate-400">
@@ -203,7 +203,7 @@
                                   d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                         </svg>
                     </div>
-                    <h3 class="mb-3 text-xl font-semibold text-white transition-colors group-hover:text-blue-400">
+                    <h3 class="mb-3 text-xl font-semibold text-deep-blue-400 transition-colors group-hover:text-blue-400">
                         Trusted Compliance
                     </h3>
                     <p class="text-sm sm:text-base leading-relaxed text-slate-400">
@@ -220,7 +220,7 @@
                                   d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="mb-3 text-xl font-semibold text-white transition-colors group-hover:text-blue-400">
+                    <h3 class="mb-3 text-xl font-semibold text-deep-blue-400 transition-colors group-hover:text-blue-400">
                         Impact
                     </h3>
                     <p class="text-sm sm:text-base leading-relaxed text-slate-400">
@@ -236,7 +236,7 @@
     <section class="py-20 lg:py-24">
         <div class="container mx-auto px-6">
             <div class="mb-12 text-center">
-                <h2 class="text-3xl lg:text-4xl font-bold tracking-tight text-white mb-3">
+                <h2 class="text-3xl lg:text-4xl font-bold tracking-tight text-deep-blue-400 mb-3">
                     Our Core Pillars
                 </h2>
                 <p class="mx-auto max-w-2xl text-slate-400 text-sm sm:text-base">
@@ -248,7 +248,7 @@
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
                 <!-- IT -->
                 <div class="group rounded-2xl bg-slate-950/50 border border-slate-800/80 border-t-4 border-t-blue-500 p-8 transition-all hover:bg-slate-900/80 hover:border-blue-400/80 hover:-translate-y-0.5">
-                    <h3 class="text-2xl font-semibold text-white mb-2">
+                    <h3 class="text-2xl font-semibold text-blue-400 mb-2">
                         IT Solutions
                     </h3>
                     <p class="text-xs sm:text-sm text-slate-400 mb-5">
@@ -263,7 +263,7 @@
 
                 <!-- Finance -->
                 <div class="group rounded-2xl bg-slate-950/50 border border-slate-800/80 border-t-4 border-t-emerald-500 p-8 transition-all hover:bg-slate-900/80 hover:border-emerald-400/80 hover:-translate-y-0.5">
-                    <h3 class="text-2xl font-semibold text-white mb-2">
+                    <h3 class="text-2xl font-semibold text-blue-400 mb-2">
                         Financial Services
                     </h3>
                     <p class="text-xs sm:text-sm text-slate-400 mb-5">
@@ -278,7 +278,7 @@
 
                 <!-- Health -->
                 <div class="group rounded-2xl bg-slate-950/50 border border-slate-800/80 border-t-4 border-t-rose-500 p-8 transition-all hover:bg-slate-900/80 hover:border-rose-400/80 hover:-translate-y-0.5">
-                    <h3 class="text-2xl font-semibold text-white mb-2">
+                    <h3 class="text-2xl font-semibold text-blue-400 mb-2">
                         Health &amp; Wellness
                     </h3>
                     <p class="text-xs sm:text-sm text-slate-400 mb-5">
@@ -293,7 +293,7 @@
 
                 <!-- Growth -->
                 <div class="group rounded-2xl bg-slate-950/50 border border-slate-800/80 border-t-4 border-t-amber-500 p-8 transition-all hover:bg-slate-900/80 hover:border-amber-400/80 hover:-translate-y-0.5">
-                    <h3 class="text-2xl font-semibold text-white mb-2">
+                    <h3 class="text-2xl font-semibold text-blue-400 mb-2">
                         Business Growth
                     </h3>
                     <p class="text-xs sm:text-sm text-slate-400 mb-5">
@@ -320,7 +320,7 @@
                     <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
                         Ready to scale your business?
                     </h2>
-                    <p class="mx-auto mb-10 max-w-2xl text-base md:text-lg text-blue-50/90">
+                    <p class="mx-auto mb-10 max-w-2xl text-base md:text-lg text-black/90">
                         Contact us today to learn how Sabali Solutions can transform your operations
                         with integrated technology, financial services, and wellness-focused support.
                     </p>

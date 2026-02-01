@@ -13,7 +13,7 @@
             <span class="inline-block mb-4 bg-blue-500/10 text-blue-400 border border-blue-500/20 px-4 py-1 text-xs uppercase tracking-widest rounded-full font-bold">
                 Our Story
             </span>
-            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-blue-400 mb-6">
                 About <span class="text-blue-500">Sabali Solutions</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
@@ -29,7 +29,7 @@
                 <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6 text-blue-400 group-hover:scale-110 transition-transform">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </div>
-                <h2 class="text-2xl font-bold mb-4 text-white">Our Mission</h2>
+                <h2 class="text-2xl font-bold mb-4 text-blue">Our Mission</h2>
                 <p class="text-slate-400 leading-relaxed">
                     To provide innovative IT, financial, and health & wellness solutions that improve lives, foster business growth, and promote sustainable development across Malawi.
                 </p>
@@ -39,7 +39,7 @@
                 <div class="w-14 h-14 bg-indigo-600/20 rounded-2xl flex items-center justify-center mb-6 text-indigo-400 group-hover:scale-110 transition-transform">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 </div>
-                <h2 class="text-2xl font-bold mb-4 text-white">Our Vision</h2>
+                <h2 class="text-2xl font-bold mb-4 text-blue">Our Vision</h2>
                 <p class="text-slate-400 leading-relaxed">
                     To be Malawi's leading integrated service provider, recognized for innovation, quality, and comprehensive solutions that meet technology, financial, and personal care needs.
                 </p>
@@ -50,7 +50,7 @@
     <!-- Core Values -->
     <div class="bg-slate-900/50 py-24 border-y border-slate-900">
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold text-white mb-4">Our Core Values</h2>
+            <h2 class="text-3xl font-bold text-blue mb-4">Our Core Values</h2>
             <p class="text-slate-500 mb-16">The principles that guide our every transaction</p>
             
             <div class="grid md:grid-cols-4 gap-6">
@@ -80,7 +80,7 @@
 
     <!-- Team Section -->
     <div class="container mx-auto px-6 py-24">
-        <h2 class="text-3xl font-bold text-center text-white mb-16">The Minds Behind Sabali</h2>
+        <h2 class="text-3xl font-bold text-center text-blue mb-16">The Minds Behind Sabali</h2>
         <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
             <!-- Peter -->
             <div class="relative group">
